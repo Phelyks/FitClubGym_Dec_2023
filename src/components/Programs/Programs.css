@@ -36,3 +36,8 @@
     height: 2rem;
     fill: white;
 }
+
+.category :nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+}
