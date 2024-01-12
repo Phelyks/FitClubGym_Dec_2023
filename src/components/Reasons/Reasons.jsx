@@ -22,23 +22,26 @@ function Reasons() {
           <span>some reasons</span>
           <div>
             <span className='stroke-text'>why </span>
-            <span>choose us?</span></div>
+            <span>choose us?</span>
+          </div>
+          <div className='details-r'>
+          <div>
+              <img src={tick} alt=""></img>
+              <span>OVER 140+ COACHES</span>
+          </div>
+          <div>
+              <img src={tick} alt="" /><span>TRAIN SMARTER AND FASTER THAN BEFORE</span>
+          </div>
+          <div>
+              <img src={tick} alt="" /><span>1 FREE PROGRAM FOR NEW MEMBER</span>
+          </div>
+          <div>
+              <img src={tick} alt="" /><span>RELIABLE PARTNERS</span>
+          </div>
         </div>
-        <div>
-          <div>
-              <img src="" alt=""></img>
-              <span></span>
-          </div>
-          <div>
-              <img src="" alt="" /><span></span>
-          </div>
-          <div>
-              <img src="" alt="" /><span></span>
-          </div>
-          <div>
-              <img src="" alt="" /><span></span>
-          </div>
+        <span style={{color: 'var(--gray)', fontWeight: 'normal', }}>OUR PARTNERS</span>
         </div>
+        
     </div>
   )
 }
