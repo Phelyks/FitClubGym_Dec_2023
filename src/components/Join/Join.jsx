@@ -9,7 +9,7 @@ const Join = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_cu0d118', 'template_c8bas88', form.current, 'Gjp5aKLepxOzu-Srp')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
