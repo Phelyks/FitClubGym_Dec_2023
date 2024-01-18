@@ -86,3 +86,9 @@
     top: 10rem;
     right: 15rem;
 }
+
+/* ********* Mobile Friendly ************** */
+
+@media screen and (max-width: 768px) {
+    
+}
