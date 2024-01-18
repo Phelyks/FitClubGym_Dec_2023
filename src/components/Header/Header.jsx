@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Header.css';
 import Logo from './../../assets/logo.png';
 import Bars from './../../assets/bars.png';
-import Link from 'react-scroll';
 
 const Header = () => {
 
@@ -27,15 +26,13 @@ const Header = () => {
 
         ><img src={Bars} alt="" style={{width:'1.5rem', height:'1.5rem',}} /></div>
       ): <ul className='header-menu'>
-      <li onClick={()=> setMenuOpened(false)}> <Link to='' >Home</Link></li>
-      <li onClick={()=> setMenuOpened(false)}> <Link to='' >Programs</Link></li>
-      <li onClick={()=> setMenuOpened(false)}> <Link to='' >Why Us</Link></li>
-      <li onClick={()=> setMenuOpened(false)}> <Link to='' >Plans</Link></li>
-      <li onClick={()=> setMenuOpened(false)}> <Link to='testimonials'
-                                                          span={true}
-                                                          smooth={true}
-                                                          >Testimonials</Link></li>
-        </ul>}
+      <li onClick={()=> setMenuOpened(false)}>Home</li>
+      <li onClick={()=> setMenuOpened(false)}>Programs</li>
+      <li onClick={()=> setMenuOpened(false)}>Why Us</li>
+      <li onClick={()=> setMenuOpened(false)}>Plans</li>
+      <li onClick={()=> setMenuOpened(false)}>Testimonials</li>
+  </ul>}
+
         
 
     </div>
