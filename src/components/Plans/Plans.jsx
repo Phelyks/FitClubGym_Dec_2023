@@ -8,7 +8,7 @@ const Plans = () => {
     <div className='plans-container'>
       <div className="blur plans-blur-1"></div>
       <div className="blur plans-blur-2"></div>
-      <div className="programs-header" style={{gap:'6rem'}}>
+      <div className="programs-header">
         <span className='stroke-text'>READY TO START </span>
         <span>YOUR JOURNEY </span>
         <span className='stroke-text'>NOW WITH US</span>

@@ -87,8 +87,23 @@
     right: 15rem;
 }
 
+.programs-header {
+    gap: 6rem;
+}
+
 /* ********* Mobile Friendly ************** */
 
 @media screen and (max-width: 768px) {
-    
+    .programs-header {
+        gap: 2rem;
+    }
+
+    .plans {
+        flex-direction: column;
+    }
+
+    .plans > :nth-child(2){
+        transform: none;
+    }
+
 }
